@@ -1,0 +1,26 @@
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quote-background{
+    background-color: #F7F0E5;
+}
+
+
+
+.navbar-color {
+    background-color:  #fd7e14;
+}
+
+.tabcolor{
+    color: #18344A;
+}

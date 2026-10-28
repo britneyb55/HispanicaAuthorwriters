@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AuthorWriters</title>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Monoton&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+
     <!-- Bootstrap -->
+
             <link
               href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
               rel="stylesheet"
@@ -20,9 +31,9 @@
 <body>
 
     <div class="container=fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Raíces y Letra</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,17 +43,25 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#-pills-home">Men Writers</a>
                 </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#v-pills-profile">
+                            Women Writers
+                        </a>
+                    </li>
+
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Explore Authors
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#v-pills-home">
+                                    Men Behind the Stories</a></li>
+                    <li><a class="dropdown-item" href="#v-pills-profile">
+                                    Women Behind the Stories</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#"> Favorite Quotes</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
@@ -91,116 +110,498 @@
           <p class="placeholder-wave">
   <span class="placeholder col-12"></span>
 </p>
-        </div>
+   <div>
 
-        <div class="row"> 
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-5 col-sm-4">
-                    <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320485347i/161206.jpg" class="img-fluid w-100" alt="card-horizontal-image">
-                    </div>
-                    <div class="col-7 col-sm-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+    <div class="row ps-3 ">
+    <h1 class="monoton-regular text-warning display-1"> Raíces y Letras </h1>
+
+    </div>
+   </div>
 
 
-        </div>
-
-        <div>
-            <div class="row"> 
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-5 col-sm-4">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3qOKiQr9TFNfsKmAUjIelFVdnd2tPfcCus_jm0W-PzYqMzoEEiUJaM0&s=10" class="img-fluid w-100" alt="card-horizontal-image">
-                    </div>
-                    <div class="col-7 col-sm-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-        </div>
-
-
-
-
-
-
-                    <div class="d-flex align-items-start flex-wrap">
-            <!-- Navigation Tabs -->
-            <div class="nav d-flex flex-row nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-            </div>
+    
+                <div>
+                    <!-- Navigation Tabs -->
+                    <div class="nav d-flex flex-row nav-pills me-3 mx-4" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+                            <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Male Authors</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Female Authors</a>
+               
+                        </div>
             
-            <!-- Tab Content Panes -->
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis aperiam accusantium facere minus totam, id cumque sequi ea harum necessitatibus animi inventore, sunt iste dicta libero consectetur ab eligendi repudiandae.
-                </div>
+                         <!-- Tab Content Panes -->
+                            <div class="tab-content" id="v-pills-tabContent">
 
+
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                
+                                    <p class="mx-4 fs-2 pt-3 lugrasimo-regular tabcolor "> 
+                                        Men Behind the Stories 
+                                    </p> 
                             
-                        <div>
-                                <div class="row"> 
-                                <div class="card">
-                                    <div class="row g-0">
-                                        <div class="col-5 col-sm-4">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3qOKiQr9TFNfsKmAUjIelFVdnd2tPfcCus_jm0W-PzYqMzoEEiUJaM0&s=10" class="img-fluid w-100" alt="card-horizontal-image">
-                                        </div>
-                                        <div class="col-7 col-sm-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    </div>
+                     <div class="row mx-4 mb-4"> 
+                         <div class="card">
+                             <div class="row g-0">
+                                 <div class="col-5 col-sm-4">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3qOKiQr9TFNfsKmAUjIelFVdnd2tPfcCus_jm0W-PzYqMzoEEiUJaM0&s=10" class="img-fluid w-100 h-100 object-fit-cover" alt="card-horizontal-image">
+                                </div>
+                                    <div class="col-7 col-sm-8">
+                                     <div class="card-body">
+                                        <h5 class="card-title">Javier Zamora</h5>
+                                                                                        
+        <h5>Early Life and Background</h5>
 
+        <ul>
+            <li>Born on April 6, 1990, in La Herradura, El Salvador.</li>
+
+            <li>Raised by his grandparents after his parents left El Salvador.</li>
+
+            <li>Moved to the United States in 1999, at age nine, to reunite with his parents.</li>
+
+            <li>Grew up in San Rafael, California.</li>
+        </ul>
+
+       
+        <h5>Education</h5>
+
+        <ul>
+            <li>Attended The Branson School in Marin County, California.</li>
+
+            <li>Earned a B.A. in History with a minor in Creative Writing from UC Berkeley (2008–2012).</li>
+
+            <li>Earned an M.F.A. in Creative Writing from New York University (2012–2014).</li>
+        </ul>
+
+        <hr>
+
+     
+        <h4>Featured Book</h4>
+
+        <h5 class="card-title">
+            <em>Solito: A Memoir</em> (2022)
+        </h5>
+
+      
+        <p class="card-text">
+            In this memoir, Zamora recounts his journey from El Salvador
+            to the United States as a child and his attempt to reunite
+            with his parents.
+        </p>
+
+     
+        <h5>Key Themes</h5>
+
+        <ul>
+            <li>Migration and family separation</li>
+            <li>Identity and belonging</li>
+            <li>Childhood and resilience</li>
+        </ul>
+
+        <!-- Quote -->
+        <div
+            class="p-3 mt-3 rounded quote-background"
+        >
+
+            <h5 class="lugrasimo-regular">
+                A Passage to Remember
+            </h5>
+
+            <blockquote class="blockquote mb-0">
+                <p class="fs-6">
+                    "I ask them if they will miss me. 'Absolutely,' they say,
+                    because no one who's left to La USA has ever come back to visit."
+                </p>
+            </blockquote>
+
+            <p class="text-muted small text-end mb-0">
+                — Javier Zamora, <em>Solito</em>, p. 9
+            </p>
+
+        
+
+    
+</div>
+
+
+                                          
+                                     </div>
+                                </div>
                             </div>
+                        </div>
+                    </div>
 
 
-
+                        <div class="row mx-4 mb-4"> 
+                            <div class="card shadow-sm">
+                               <div class="row g-0">
+                                    <div class="col-5 col-sm-4">
+                                        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320485347i/161206.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="card-horizontal-image">
                                             </div>
 
-                                                <div class="row"> 
-                                                    <div class="card">
-                                                        <div class="row g-0">
-                                                            <div class="col-5 col-sm-4">
-                                                            <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1320485347i/161206.jpg" class="img-fluid w-100" alt="card-horizontal-image">
-                                                            </div>
-                                                            <div class="col-7 col-sm-8">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                                            </div>
-                                                            </div>
-                                                        </div>
-                                                        </div>
+                                        <div class="col-7 col-sm-8">
+                                            <div class="card-body">
+                                             <h5 class="card-title">Richard Rodriguez</h5>
+                                                   
+                                              <h5>Early Life and Background</h5>
+
+                                    <ul>
+                                        <li>
+                                            Born in San Francisco, California,
+                                            to Mexican immigrant parents.
+                                        </li>
+
+                                        <li>
+                                            Grew up in Sacramento, California.
+                                        </li>
+
+                                        <li>
+                                                At age six, Richard Rodriguez began attending Sacred Heart School
+                                                in Sacramento, a school run by the Sisters of Mercy. This marked
+                                                an important change in his life as he began learning and using
+                                                English more extensively outside his Spanish-speaking home.
+                                        </li>
+                                    </ul>
 
 
-                                             </div>
+                                    <h5>Education</h5>
+
+                                    <ul>
+                                        <li>
+                                            Bacholer of Art (B.A. ) in English, Stanford University in 1967.
+                                            
+                                        </li>
+
+                                        <li>
+                                            Master of Arts (M.A.) in Philosophy,
+                                            Columbia University in 1969.
+                                        </li>
+
+                                        <li>
+                                            Pursued graduate studies in English
+                                            Renaissance literature at the
+                                            University of California, Berkeley but left academia.
+                                        </li>
+                                    </ul>
+
+
+                                
+
+
+                                    <hr>
+
+
+                                
+                                    <h4>Featured Book</h4>
+
+                                    <h5 class="card-title">
+                                        <em>
+                                            Hunger of Memory: The Education
+                                            of Richard Rodriguez
+                                        </em>
+                                        (1982)
+                                    </h5>
+
+
+                                   
+                                    <p class="card-text">
+                                        In this memoir, Rodriguez reflects on
+                                        growing up in a Mexican American family
+                                        and learning English in school. He
+                                        describes how education helped him
+                                        succeed while also changing his
+                                        relationship with his parents and
+                                        the Spanish language.
+                                    </p>
+
+
+                                  
+                                    <h5>Key Themes</h5>
+
+                                    <ul>
+                                        <li>Language and cultural identity</li>
+                                        <li>Family and belonging</li>
+                                        <li>Education and social mobility</li>
+                                        <li>The relationship between personal
+                                            identity and assimilation</li>
+                                    </ul>
+
+
+                                    <!-- Quote -->
+                                    <div
+                                        class="p-3 mt-3 rounded quote-background"
+                                    >
+
+                                        <h5 class="lugrasimo-regular">
+                                            A Passage to Remember
+                                        </h5>
+
+                                        <blockquote class="blockquote mb-0">
+
+                                            <p class="fs-6">
+                                                "One Saturday morning I entered
+                                                the kitchen where my parents
+                                                were talking, but I did not
+                                                realize that they were talking
+                                                in Spanish until, the moment
+                                                they saw me, their voices
+                                                changed and they began speaking
+                                                English [...] I felt my throat
+                                                twisted by unsounded grief."
+                                            </p>
+
+                                        </blockquote>
+
+                                        <p class="text-muted small text-end mb-0">
+                                            — Richard Rodriguez,
+                                            <em>Hunger of Memory</em>,
+                                            pp. 576–577
+                                        </p>
+
+                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
 
                             
 
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                         <p class="mx-4 fs-2 pt-3 lugrasimo-regular tabcolor">
+        Women Behind the Stories
+    </p>
+
+                        <div class="row mx-4 mb-4"> 
+                            <div class="card shadow-sm">
+                               <div class="row g-0">
+                                    <div class="col-5 col-sm-4">
+                                        <img src="https://images2.pangobooks.com/images/aa7e2438-edbe-4f57-afeb-98faa5f50b06?auto=webp&format=webp&height=300&quality=85&crop=5%3A6" class="img-fluid w-100 h-100 object-fit-cover" alt="card-horizontal-image">
+                                            </div>
+
+                                        <div class="col-7 col-sm-8">
+                                            <div class="card-body">
+                                             <h5 class="card-title">Reyna Grande </h5>
+                                                   
+                                              <h5>Early Life and Background</h5>
+
+                                                                <ul>
+                                                                    <li>
+                                                                        Born on September 7, 1975, in Iguala, Guerrero, Mexico.
+                                                                    </li>
+
+                                                                    <li>
+                                                                        Her father left for the United States when she was two
+                                                                        years old. Two years later, her mother followed,
+                                                                        leaving Reyna and her siblings in Mexico.
+                                                                    </li>
+
+                                                                    <li>
+                                                                        She and her siblings were raised by their paternal
+                                                                        grandparents in conditions of poverty. At age nine,
+                                                                        Reyna moved to Los Angeles, California, with her
+                                                                        siblings after her father brought them to the United States.
+                                                                    </li>
+                                                                    </ul>
 
 
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ducimus veniam optio porro impedit amet odio aliquam officia non nobis quisquam soluta repudiandae, earum nulla.
-                </div>
-            </div>
-            </div>
+                                                            
+                                                                <h5>Education</h5>
+
+                                                                <ul>
+                                                                    <li>
+                                                                        Attended Aldama Elementary School in Highland Park,
+                                                                        California, after arriving in the United States without
+                                                                        knowing English.
+                                                                    </li>
+
+                                                                    <li>
+                                                                        Graduated from Benjamin Franklin High School in 1993.
+                                                                    </li>
+
+                                                                    <li>
+                                                                        Attended Pasadena City College before transferring to
+                                                                        the University of California, Santa Cruz, where she
+                                                                        earned a Bachelor of Arts (B.A.) in Creative Writing
+                                                                        and Film & Video in 1999.
+                                                                    </li>
+
+                                                                    <li>
+                                                                        Earned a Master of Fine Arts (M.F.A.) in Creative Writing
+                                                                        from Antioch University.
+                                                                    </li>
+                                                                </ul>
+
+
+                                                                <hr>
+
+
+                                                                
+                                                                <h4>Featured Book</h4>
+
+                                                                <h5 class="card-title">
+                                                                    <em>The Distance Between Us</em>
+                                                                    (2012)
+                                                                </h5>
+
+
+                                                                
+                                                                    <p class="card-text">
+                                                                        In this memoir, Reyna Grande shares her childhood experiences
+                                                                        growing up in Mexico while separated from her parents.
+                                                                        She describes being raised by her paternal grandparents,
+                                                                        the challenges of immigrating to the United States, and
+                                                                        adjusting to a new country and learning English.
+                                                                    </p>
+
+
+                                                                    
+                                                                    <h5>Key Themes</h5>
+
+                                                                    <ul>
+                                                                        <li>Family separation and immigration</li>
+                                                                        <li>Childhood hardship and resilience</li>
+                                                                        <li>Identity and belonging</li>
+                                                                        <li>Language and cultural adjustment</li>
+                                                                        <li>Education and the pursuit of a better future</li>
+                                                                    </ul>
+
+
+              
+                                                            <div
+                                                                class="p-3 mt-3 rounded quote-background">
+
+                                                                <h5 class="lugrasimo-regular">
+                                                                    A Passage to Remember
+                                                                </h5>
+
+                                                                <blockquote class="blockquote mb-0">
+                                                                    <p class="fs-6">
+                                                                        "I cried for my hair. It was the only beautiful thing I had."
+                                                                    </p>
+                                                                </blockquote>
+
+                                                                <p class="text-muted small text-end mb-0">
+                                                                    — Reyna Grande,
+                                                                    <em>The Distance Between Us</em>, p. 28
+                                                                </p>
+
+
+                                        
+                                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                        </div>
+
+
+                        <div class="row mx-4 mb-4"> 
+                            <div class="card shadow-sm">
+                               <div class="row g-0">
+                                    <div class="col-5 col-sm-4">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpG8yh988NvD8IAdlpSVIuztVxXNmMhvOS2Ax9QptHyCCrSwJofLbMQWF6&s=10" class="img-fluid w-100 h-100 object-fit-cover" alt="card-horizontal-image">
+                                            </div>
+
+                                        <div class="col-7 col-sm-8">
+                                            <div class="card-body">
+
+                                                                <h5 class="card-title">Erika L. Sánchez</h5>
+
+                                                                <h5>Early Life and Background</h5>
+
+                                                                <ul>
+                                                                    <li>
+                                                                        Born in 1984 and raised in Cicero, Illinois, near Chicago.
+                                                                    </li>
+                                                                    <li>
+                                                                        Her parents immigrated from Mexico, influencing her
+                                                                        connection to Mexican culture and family traditions.
+                                                                    </li>
+                                                                    <li>
+                                                                        She developed a love for writing during childhood
+                                                                        and dreamed of becoming an author.
+                                                                    </li>
+                                                                </ul>
+
+                                                                <h5>Education</h5>
+
+                                                                <ul>
+                                                                    <li>
+                                                                        Earned her bachelor's degree from the University of
+                                                                        Illinois Chicago.
+                                                                    </li>
+                                                                    <li>
+                                                                        Received a Fulbright scholarship to teach English
+                                                                        in Madrid, Spain.
+                                                                    </li>
+                                                                    <li>
+                                                                        Earned her M.F.A. in Creative Writing from the
+                                                                        University of New Mexico.
+                                                                    </li>
+                                                                </ul>
+
+                                                                <hr>
+
+                                                                <h4>Featured Book</h4>
+
+                                                                <h5 class="card-title">
+                                                                    <em>I Am Not Your Perfect Mexican Daughter</em> (2017)
+                                                                </h5>
+
+                                                                <p class="card-text">
+                                                                    Julia struggles with grief and her parents' expectations
+                                                                    after her older sister, Olga, dies in an accident. As she
+                                                                    explores Olga's belongings, she uncovers secrets about
+                                                                    her sister's life. Along the way, Julia faces her own
+                                                                    struggles and works toward her dream of attending college
+                                                                    in New York.
+                                                                </p>
+
+                                                                <h5>Key Themes</h5>
+
+                                                                <ul>
+                                                                    <li>Cultural identity and belonging</li>
+                                                                    <li>Family expectations and traditions</li>
+                                                                    <li>Grief and loss</li>
+                                                                    <li>Independence and ambition</li>
+                                                                </ul>
+
+                                                                <div
+                                                                    class="p-3 mt-3 rounded quote-background" >
+
+                                                                    <h5 class="lugrasimo-regular">
+                                                                        A Passage to Remember
+                                                                    </h5>
+
+                                                                    <blockquote class="blockquote mb-0">
+                                                                        <p class="fs-6">
+                                                                            “I want Amá to tell me that she loves me and that
+                                                                            we'll get through this together, but she doesn't.
+                                                                            ... I stand there like a dope, waiting and waiting
+                                                                            for her to say something that will make me feel better.”
+                                                                        </p>
+                                                                    </blockquote>
+
+                                                                    <p class="text-muted small text-end mb-0">
+                                                                        — Erika L. Sánchez,
+                                                                        <em>I Am Not Your Perfect Mexican Daughter</em>, p. 15
+                                                                    </p>
+                                                                </div>
+                                                           </div>
+                                                        </div>  
+                                                    </div>      
+                                                </div>          
+                                            </div>              
+                                        </div>  
+                         
+                    
+                    </div>
+        </div>
+            
 
         
                 
